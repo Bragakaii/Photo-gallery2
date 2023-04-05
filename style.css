@@ -1,0 +1,48 @@
+body{
+     display: grid;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+     height: 100vh;
+     grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+
+}
+header{
+
+    font-family: 'Gruppo', cursive;
+    font-family: 'Righteous', cursive;
+    grid-area: header;
+    justify-content: center;
+    display: flex;
+
+}
+.photo{
+
+    
+}
+.gallery{
+    color: purple;
+}
+
+main{
+    grid-area: main;
+    display: grid;
+
+}
+.gaho{
+    height: 200px;
+    width: 200px;
+    transform: translate(130%, -20%);
+}
+.lizzo{
+    height: 150px;
+    width: 200px;
+    transform: translate(240%, -176%);
+}
+
+footer{
+    grid-area: footer;
+}
